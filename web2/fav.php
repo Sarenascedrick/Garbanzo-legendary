@@ -5,8 +5,10 @@
   
  <?php
  if(isset($_POST ["username"])){
+ 	
  	echo 'Thanks for your selection ' ;
  	 echo $_POST ["username"];
+
  }
  ?>
 <br>
@@ -17,7 +19,8 @@ echo 'You really enjoy ';
 <br>
  <?php 
  echo '-especially with a nice ';
- echo $_POST ["color"]; ?> wine
+ echo $_POST ["color"];
+ echo ' wine';?> 
   
 </body>
 </html>
